@@ -1,5 +1,5 @@
 .bglight {
-    background: linear-gradient(296.82deg, #D9EEEB 3.03%, rgba(208, 226, 233, 0.489125) 46.3%, rgba(218, 218, 229, 0) 100%);
+    background: linear-gradient(296.82deg, rgba(179, 197, 240, 0.7) 3.03%, rgba(214, 203, 228, 0.7) 69.27%, rgba(178, 164, 192, 0.7) 100%);
     transition: all 0.5s ease;
 }
 

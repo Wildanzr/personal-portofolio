@@ -4,7 +4,7 @@ import Experience from './Experience'
 
 const About = () => {
   return (
-    <div className="flex flex-col cotainer py-20 px-10">
+    <div className="flex flex-col cotainer py-20 px-10 duration-300">
       <div className="flex flex-col">
       <h2 className="text-5xl font-medium text-center">About Me</h2>
       <p className='text-xl font-light text-center py-10'>

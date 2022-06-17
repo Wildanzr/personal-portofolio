@@ -24,7 +24,7 @@ const App = () => {
   })
 
   return (
-    <div className="bglight mx-auto text-[#02091B] font-poppins dark:text-[#D8EAF3] duration-500" id='theme'>
+    <div className="bglight mx-auto text-[#02091B] font-poppins dark:text-[#D8EAF3] duration-300" id='theme'>
       <Navbar theme={theme} setTheme={setTheme}/>
       <Hero />
       <About />

@@ -7,7 +7,7 @@ const ExList = ({ year, title, company, desc }) => {
       <input type="checkbox" />
       <div className="collapse-title text-xl font-medium">
         <div className="flex flex-row">
-          <p className="text-xl font-semibold text-[#B300A4] pr-10">{year}</p>
+          <p className="text-xl font-semibold text-[#B300A4] dark:text-[#4242BC] duration-300 pr-10">{year}</p>
 
           <div className="flex flex-col">
             <p className="text-2xl font-medium">{title}</p>
