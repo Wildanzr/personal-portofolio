@@ -1,0 +1,7 @@
+.bglight {
+    background: linear-gradient(296.82deg, #D9EEEB 3.03%, rgba(208, 226, 233, 0.489125) 46.3%, rgba(218, 218, 229, 0) 100%);
+}
+
+.bgdark {
+    background: linear-gradient(296.82deg, #120024 3.03%, #052041 46.3%, #120024 100%);
+}

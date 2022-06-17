@@ -1,9 +1,13 @@
 import React from 'react'
 
+import Navbar from './components/Navbar'
+
+import './styles/Background.css'
+
 function App () {
   return (
-    <div className="flex">
-      <p className='text-3xl'>Hello world</p>
+    <div className="bglight mx-auto h-screen font-poppins">
+      <Navbar />
     </div>
   )
 }
