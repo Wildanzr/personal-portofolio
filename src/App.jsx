@@ -7,7 +7,7 @@ import About from './components/About'
 import './styles/Custom.css'
 
 const App = () => {
-  const [theme, setTheme] = useState(true)
+  const [theme, setTheme] = useState(false)
 
   useEffect(() => {
     if (theme) {

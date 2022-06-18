@@ -7,7 +7,7 @@ const Navbar = ({ theme, setTheme }) => {
   }
 
   return (
-    <div className="flex flex-row container py-5 px-5 justify-between duration-300">
+    <div className="flex flex-row container py-10 px-5 justify-between duration-300">
       <div className="flex flex-row">
         <p className="text-4xl font-medium tracking-wider">Wildan</p>
         <label className="swap swap-rotate pl-10">
