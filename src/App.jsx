@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Service from './components/Service'
+import Navbar from './views/Navbar'
+import Hero from './views/Hero'
+import About from './views/About'
+import Service from './views/Service'
 
 import './styles/Custom.css'
 
