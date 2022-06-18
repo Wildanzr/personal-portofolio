@@ -4,6 +4,7 @@ import Navbar from './views/Navbar'
 import Hero from './views/Hero'
 import About from './views/About'
 import Service from './views/Service'
+import Contacts from './views/Contacts'
 import Footer from './views/Footer'
 
 import './styles/Custom.css'
@@ -31,6 +32,7 @@ const App = () => {
       <Hero />
       <About />
       <Service />
+      <Contacts />
       <Footer />
     </div>
   )
