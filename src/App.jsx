@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import Service from './components/Service'
 
 import './styles/Custom.css'
 
@@ -28,6 +29,7 @@ const App = () => {
       <Navbar theme={theme} setTheme={setTheme}/>
       <Hero />
       <About />
+      <Service />
     </div>
   )
 }
