@@ -1,6 +1,6 @@
 import React from 'react'
 
-import CardTech from '../components/CardTech'
+import CardTech from '../components/SwiperCard'
 
 const Service = () => {
   return (

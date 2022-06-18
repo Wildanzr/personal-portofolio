@@ -1,32 +1,17 @@
+/* eslint-disable react/prop-types */
 import React from 'react'
 
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { EffectCards } from 'swiper'
-
-import 'swiper/css'
-import 'swiper/css/effect-cards'
-
-import '../styles/Swiper.css'
-
-const CardTech = () => {
+const CardTech = ({ logo, title, desc }) => {
   return (
-    <div className="flex">
-      <Swiper
-        effect={'cards'}
-        grabCursor={true}
-        modules={[EffectCards]}
-        className="mySwiper"
-      >
-        <SwiperSlide className='text-black text-base font-light'>Slide 1</SwiperSlide>
-        <SwiperSlide className='text-black text-base font-light'>Slide 2</SwiperSlide>
-        <SwiperSlide className='text-black text-base font-light'>Slide 3</SwiperSlide>
-        <SwiperSlide className='text-black text-base font-light'>Slide 4</SwiperSlide>
-        <SwiperSlide className='text-black text-base font-light'>Slide 5</SwiperSlide>
-        <SwiperSlide className='text-black text-base font-light'>Slide 6</SwiperSlide>
-        <SwiperSlide className='text-black text-base font-light'>Slide 7</SwiperSlide>
-        <SwiperSlide className='text-black text-base font-light'>Slide 8</SwiperSlide>
-        <SwiperSlide className='text-black text-base font-light'>Slide 9</SwiperSlide>
-      </Swiper>
+    <div className="flex flex-col h-full text-black justify-center">
+      <div className="flex flex-col items-center my-5">
+        <img src={logo} alt={title} className="w-8/12 h-auto" />
+        <p className="text-2xl font-medium">{title}</p>
+      </div>
+
+      <div className="flex flex-col">
+        <p className="text-xl font-light text-center px-5">{desc}</p>
+      </div>
     </div>
   )
 }
