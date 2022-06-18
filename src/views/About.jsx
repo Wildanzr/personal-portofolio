@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Experience from './Experience'
+import Experience from '../components/Experience'
 
 const About = () => {
   return (
