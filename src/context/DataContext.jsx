@@ -51,6 +51,13 @@ export const DataProvider = props => {
       dark: '#114477'
     },
     {
+      logo: LogoReact,
+      title: 'React',
+      desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
+      bg: '#bee1e6',
+      dark: '#133f62'
+    },
+    {
       logo: LogoAws,
       title: 'AWS',
       desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
@@ -58,11 +65,70 @@ export const DataProvider = props => {
       dark: '#052f5f'
     },
     {
+      logo: LogoDocker,
+      title: 'Docker',
+      desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
+      bg: '#f0efeb',
+      dark: '#114477'
+    },
+    {
+      logo: LogoTailwind,
+      title: 'TailwindCSS',
+      desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
+      bg: '#dfe7fd',
+      dark: '#052f5f'
+    },
+    {
+      logo: LogoExpress,
+      title: 'ExpressJS',
+      desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
+      bg: '#cddafd',
+      dark: '#133f62'
+    }
+  ])
+
+  const [wheelTech, setWheelTech] = useState([
+    {
+      logo: LogoGit,
+      title: 'Git',
+      desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
+      bg: '#eae4e9',
+      dark: '#114477'
+    },
+    {
+      logo: LogoNode,
+      title: 'NodeJS',
+      desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
+      bg: '#fff1e6',
+      dark: '#052f5f'
+    },
+    {
+      logo: LogoMongo,
+      title: 'Mongo',
+      desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
+      bg: '#fde2e4',
+      dark: '#133f62'
+    },
+    {
+      logo: LogoPostgres,
+      title: 'Postgres',
+      desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
+      bg: '#fad2e1',
+      dark: '#114477'
+    },
+    {
       logo: LogoReact,
       title: 'React',
       desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
       bg: '#bee1e6',
       dark: '#133f62'
+    },
+    {
+      logo: LogoAws,
+      title: 'AWS',
+      desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
+      bg: '#e2ece9',
+      dark: '#052f5f'
     },
     {
       logo: LogoDocker,
@@ -122,6 +188,8 @@ export const DataProvider = props => {
   const allState = {
     techs,
     setTechs,
+    wheelTech,
+    setWheelTech,
     projects1,
     projects2,
     theme,

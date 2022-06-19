@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React, { useContext, useEffect } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { DataContext } from '../context/DataContext'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -14,9 +14,25 @@ import 'swiper/css/effect-cards'
 // Swiper custom style
 import '../styles/SwiperCard.css'
 
-const SwiperCard = ({ techs }) => {
+const SwiperCard = ({ techs, wheelTech, setWheelTech }) => {
+  // Local state
+  const [slide, setSlide] = useState(4)
+
+  // Context state
   const { allState } = useContext(DataContext)
   const { theme } = allState
+
+  const next = () => {
+    const temp = [...wheelTech]
+    temp.push(temp.shift())
+    setWheelTech([...temp])
+  }
+
+  const prev = () => {
+    const temp = [...wheelTech]
+    temp.unshift(temp.pop())
+    setWheelTech([...temp])
+  }
 
   useEffect(() => {
     techs.forEach((tech, idx) => {
@@ -31,9 +47,16 @@ const SwiperCard = ({ techs }) => {
         effect={'cards'}
         grabCursor={true}
         modules={[EffectCards]}
-        initialSlide={5}
+        initialSlide={techs.length / 2}
         onSlideChange={(swiper) => {
-          console.log(`slide index: ${swiper.realIndex}`)
+          // eslint-disable-next-line prefer-const
+          if (swiper.realIndex > slide) {
+            setSlide(swiper.realIndex)
+            next()
+          } else if (swiper.realIndex < slide) {
+            setSlide(swiper.realIndex)
+            prev()
+          }
         }}
         className="mySwiper w-[315px] h-[490px]"
       >

@@ -9,7 +9,7 @@ import RecentProj from '../components/RecentProj'
 const Service = () => {
   // Use context
   const { allState } = useContext(DataContext)
-  const { techs, projects1, projects2 } = allState
+  const { techs, wheelTech, setWheelTech, projects1, projects2 } = allState
   return (
     <div className="flex flex-col justify-between container px-20" id='service'>
       <div
@@ -25,8 +25,8 @@ const Service = () => {
         <h2 className="text-5xl font-medium text-center pb-20">Service</h2>
 
         <div className="flex flex-row justify-between">
-          <WheelTech techs={techs} />
-          <SwiperTech techs={techs} />
+          <WheelTech techs={wheelTech} />
+          <SwiperTech techs={techs} wheelTech={wheelTech} setWheelTech={setWheelTech}/>
         </div>
       </div>
 
