@@ -4,7 +4,7 @@ import Experience from '../components/Experience'
 
 const About = () => {
   return (
-    <div className="flex flex-col cotainer py-20 px-10 duration-300">
+    <div className="flex flex-col cotainer py-20 px-10 duration-300" id='about'>
       <div
         className="flex flex-col"
         data-aos="fade-up"
@@ -12,7 +12,7 @@ const About = () => {
         data-aos-duration="800"
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
-        data-aos-once="false"
+        data-aos-once="true"
         data-aos-anchor-placement="top-center"
       >
         <h2 className="text-5xl font-medium text-center">About Me</h2>

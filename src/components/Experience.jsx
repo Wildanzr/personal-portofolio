@@ -41,7 +41,7 @@ const Experience = () => {
       data-aos-duration="800"
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
-      data-aos-once="false"
+      data-aos-once="true"
       data-aos-anchor-placement="top-center"
     >
       <h2 className="text-3xl font-light">Experience</h2>

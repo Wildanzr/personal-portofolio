@@ -9,7 +9,7 @@ const Navbar = ({ theme, setTheme }) => {
   return (
     <div className="flex flex-row container py-10 px-5 justify-between duration-300">
       <div className="flex flex-row">
-        <p className="text-4xl font-medium tracking-wider">Wildan</p>
+        <a href='/' className="text-4xl font-medium tracking-wider">Wildan</a>
         <label className="swap swap-rotate pl-10">
           <input type="checkbox" onClick={() => handleTheme()}/>
           <svg
@@ -31,10 +31,10 @@ const Navbar = ({ theme, setTheme }) => {
       </div>
 
       <div className="flex items-center">
-        <p className="text-lg font-normal tracking-wider px-5">Home</p>
-        <p className="text-lg font-normal tracking-wider px-5">About Me</p>
-        <p className="text-lg font-normal tracking-wider px-5">Service</p>
-        <p className="text-lg font-normal tracking-wider px-5">Contacts</p>
+        <a data-easing="easeInOutQuad" href="#home" className="text-lg font-normal tracking-wider px-5 hover:font-semibold duration-200">Home</a>
+        <a data-easing="easeInOutQuad" href="#about" className="text-lg font-normal tracking-wider px-5 hover:font-semibold duration-200">About Me</a>
+        <a data-easing="easeInOutQuad" href="#service" className="text-lg font-normal tracking-wider px-5 hover:font-semibold duration-200">Service</a>
+        <a data-easing="easeInOutQuad" href="#contacts" className="text-lg font-normal tracking-wider px-5 hover:font-semibold duration-200">Contacts</a>
       </div>
     </div>
   )
