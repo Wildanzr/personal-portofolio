@@ -33,21 +33,48 @@ const Navbar = ({ theme, setTheme }) => {
           </label>
           <ul
             tabIndex="0"
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box text-[#D8EAF3]"
           >
             <li>
-              <a>Homepage</a>
+              <a
+                data-easing="easeInOutQuad"
+                href="#home"
+                className="text-sm font-normal tracking-wider px-5 hover:font-semibold duration-200"
+              >
+                Home
+              </a>
             </li>
             <li>
-              <a>Portfolio</a>
+              <a
+                data-easing="easeInOutQuad"
+                href="#about"
+                className="text-sm font-normal tracking-wider px-5 hover:font-semibold duration-200"
+              >
+                About
+              </a>
             </li>
             <li>
-              <a>About</a>
+              <a
+                data-easing="easeInOutQuad"
+                href="#service"
+                className="text-sm font-normal tracking-wider px-5 hover:font-semibold duration-200"
+              >
+                Service
+              </a>
+            </li>
+            <li>
+              <a
+                data-easing="easeInOutQuad"
+                href="#contacts"
+                className="text-sm font-normal tracking-wider px-5 hover:font-semibold duration-200"
+              >
+                Contacts
+              </a>
             </li>
           </ul>
         </div>
 
-        <DarkSwitcher theme={theme} setTheme={setTheme} show={true}/>
+        <DarkSwitcher theme={theme} setTheme={setTheme} show={true} />
       </div>
 
       <div className="hidden items-center sm:flex">
