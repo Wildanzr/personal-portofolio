@@ -11,7 +11,7 @@ import 'swiper/css'
 import 'swiper/css/effect-cards'
 
 // Swiper custom style
-import '../styles/Swiper.css'
+import '../styles/SwiperCard.css'
 
 const SwiperCard = ({ techs }) => {
   return (
@@ -21,11 +21,11 @@ const SwiperCard = ({ techs }) => {
         grabCursor={true}
         modules={[EffectCards]}
         initialSlide={5}
-        className="mySwiper"
+        className="mySwiper w-[315px] h-[490px]"
       >
         {techs.map((tech, idx) => {
           return (
-            <SwiperSlide key={idx}>
+            <SwiperSlide key={idx} className='rounded-3xl'>
               <CardTech {...tech} />
             </SwiperSlide>
           )

@@ -4,10 +4,10 @@ import Socials from '../components/Socials'
 
 const Contacts = () => {
   return (
-    <div className="flex container flex-col py-20 px-20 justify-center">
+    <div className="flex container flex-col pt-5 px-20 justify-center">
       <h2 className="text-5xl font-medium text-center">Contacts</h2>
 
-      <div className="flex flex-row justify-around">
+      <div className="flex flex-row py-10 justify-around">
         <div className="flex flex-col">
           <div className="flex flex-col">
             <p className="text-xl font-light opacity-60">My Phone Number</p>
