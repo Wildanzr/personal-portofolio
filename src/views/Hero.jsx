@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { DataContext } from '../context/DataContext'
 
-import HeroImage from '../images/Hero.png'
+import Hero1 from '../images/me.png'
+import Hero2 from '../images/me2.png'
 import WaveGif from '../images/wave.png'
 
 const Hero = () => {
+  const { allState } = useContext(DataContext)
+  const { theme } = allState
+
   return (
-    <div className="flex flex-row container justify-between py-20 px-20 duration-300" id='home'>
+    <div className="flex flex-row container justify-between py-14 px-20 duration-300" id='home'>
       <div className="flex flex-col place-content-end">
         <div className="flex flex-col">
           <div className="flex flex-row items-end">
@@ -28,8 +33,10 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex justify-end">
-        <img src={HeroImage} alt="hero" className="w-9/12 h-9/12" />
+      <div className="flex justify-center">
+        {
+          theme ? <img src={Hero1} alt="hero" className="w-full h-full duration-300" /> : <img src={Hero2} alt="hero" className="w-full h-full duration-300" />
+        }
       </div>
     </div>
   )
