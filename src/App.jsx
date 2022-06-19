@@ -45,9 +45,9 @@ const App = () => {
         <Navbar theme={theme} setTheme={setTheme} />
         <Hero />
         <About />
-        {/* <Service />
+        {/* <Service /> */}
         <Contacts />
-        <Footer /> */}
+        <Footer />
     </div>
   )
 }

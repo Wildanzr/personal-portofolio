@@ -9,7 +9,7 @@ const DarkSwitcher = ({ theme, setTheme, show }) => {
     <label className={`swap swap-rotate pl-10 pr-5 ${show ? '' : 'hidden'} sm:flex`}>
       <input type="checkbox" onClick={() => handleTheme()} />
       <svg
-        className="swap-off fill-current w-h-8 h-8"
+        className={`swap-off fill-current w-h-8 h-8 ${theme ? '' : 'hidden'}`}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
       >
@@ -17,7 +17,7 @@ const DarkSwitcher = ({ theme, setTheme, show }) => {
       </svg>
 
       <svg
-        className="swap-on fill-current w-8 h-8"
+        className={`swap-on fill-current w-8 h-8 ${theme ? 'hidden' : ''}`}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
       >
