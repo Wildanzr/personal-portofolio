@@ -31,7 +31,7 @@ const WheelTech = ({ techs }) => {
         />
         <img
           src={techs[4].logo}
-          className="flex absolute w-6/12 object-cover"
+          className="flex absolute w-[30%] object-cover"
           id="wheel-react"
         />
         <img

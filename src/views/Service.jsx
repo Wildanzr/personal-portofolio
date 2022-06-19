@@ -22,7 +22,7 @@ const Service = () => {
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
       >
-        <h2 className="text-5xl font-medium text-center pb-20">Service</h2>
+        <h2 className="text-5xl font-medium text-center pb-10">Service</h2>
 
         <div className="flex flex-row justify-between">
           <WheelTech techs={wheelTech} />
