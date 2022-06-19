@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "autoprefixer": "^10.4.7",
     "daisyui": "^2.15.4",
     "postcss": "^8.4.14",

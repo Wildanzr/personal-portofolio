@@ -4,7 +4,16 @@ import Socials from '../components/Socials'
 
 const Contacts = () => {
   return (
-    <div className="flex container flex-col pt-5 px-20 justify-center">
+    <div
+      className="flex container flex-col pt-5 px-20 justify-center"
+      data-aos="fade-up"
+      data-aos-delay="0"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
       <h2 className="text-5xl font-medium text-center">Contacts</h2>
 
       <div className="flex flex-row py-10 justify-around">
