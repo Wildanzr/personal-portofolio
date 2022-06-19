@@ -25,7 +25,7 @@ const Contacts = () => {
               href="https://wa.me/+625736822725"
               rel="noreferrer"
               target="_blank"
-              className="text-2xl font-semibold underline py-2"
+              className="text-2xl font-semibold underline py-2 hover:text-[#4242BC] duration-300 dark:text-[#D8EAF3] dark:hover:text-[#B300A4]"
             >
               +62 85736822725
             </a>
@@ -35,7 +35,7 @@ const Contacts = () => {
               href="mailto:graita.sukma@gmail.com"
               rel="noreferrer"
               target="_blank"
-              className="text-2xl font-semibold underline py-2"
+              className="text-2xl font-semibold underline py-2 hover:text-[#4242BC] duration-300 dark:text-[#D8EAF3] dark:hover:text-[#B300A4]"
             >
               graita.sukma@gmail.com
             </a>
