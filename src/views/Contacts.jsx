@@ -4,7 +4,17 @@ import Socials from '../components/Socials'
 
 const Contacts = () => {
   return (
-    <div className="flex container flex-col pt-5 px-20 justify-center">
+    <div
+      className="flex container flex-col pt-5 px-20 justify-center"
+      id='contacts'
+      data-aos="fade-up"
+      data-aos-delay="0"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="true"
+      data-aos-anchor-placement="top-center"
+    >
       <h2 className="text-5xl font-medium text-center">Contacts</h2>
 
       <div className="flex flex-row py-10 justify-around">
@@ -15,7 +25,7 @@ const Contacts = () => {
               href="https://wa.me/+625736822725"
               rel="noreferrer"
               target="_blank"
-              className="text-3xl font-semibold underline py-2"
+              className="text-2xl font-semibold underline py-2"
             >
               +62 85736822725
             </a>
@@ -25,7 +35,7 @@ const Contacts = () => {
               href="mailto:graita.sukma@gmail.com"
               rel="noreferrer"
               target="_blank"
-              className="text-3xl font-semibold underline py-2"
+              className="text-2xl font-semibold underline py-2"
             >
               graita.sukma@gmail.com
             </a>

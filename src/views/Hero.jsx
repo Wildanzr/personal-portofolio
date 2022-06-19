@@ -5,7 +5,7 @@ import WaveGif from '../images/wave.png'
 
 const Hero = () => {
   return (
-    <div className="flex flex-row container justify-between py-20 px-20 duration-300">
+    <div className="flex flex-row container justify-between py-20 px-20 duration-300" id='home'>
       <div className="flex flex-col place-content-end">
         <div className="flex flex-col">
           <div className="flex flex-row items-end">
