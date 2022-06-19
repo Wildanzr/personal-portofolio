@@ -21,6 +21,9 @@ const SwiperCard = ({ techs }) => {
         grabCursor={true}
         modules={[EffectCards]}
         initialSlide={5}
+        onSlideChange={(swiper) => {
+          console.log(`slide index: ${swiper.realIndex}`)
+        }}
         className="mySwiper w-[315px] h-[490px]"
       >
         {techs.map((tech, idx) => {

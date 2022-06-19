@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { DataProvider } from './context/DataContext'
 
 import Navbar from './views/Navbar'
 import Hero from './views/Hero'
@@ -27,13 +28,18 @@ const App = () => {
   })
 
   return (
-    <div className="bglight mx-auto h-full text-[#02091B] font-poppins dark:text-[#D8EAF3] duration-300" id='theme'>
-      <Navbar theme={theme} setTheme={setTheme}/>
-      <Hero />
-      <About />
-      <Service />
-      <Contacts />
-      <Footer />
+    <div
+      className="bglight mx-auto h-full text-[#02091B] font-poppins dark:text-[#D8EAF3] duration-300"
+      id="theme"
+    >
+      <DataProvider>
+        <Navbar theme={theme} setTheme={setTheme} />
+        <Hero />
+        <About />
+        <Service />
+        <Contacts />
+        <Footer />
+      </DataProvider>
     </div>
   )
 }
