@@ -4,16 +4,15 @@ import SwiperTech from '../components/SwiperCard'
 import WheelTech from '../components/WheelTech'
 import RecentProj from '../components/RecentProj'
 
-import LogoReact from '../images/react.png'
-import LogoNode from '../images/node.png'
-import LogoMongo from '../images/mongo.png'
-import LogoPostgres from '../images/postgres.png'
-import LogoTailwind from '../images/tailwind.png'
-import LogoAws from '../images/aws.png'
-import LogoDocker from '../images/docker.png'
-import LogoGit from '../images/git.png'
-import LogoSpring from '../images/spring.png'
-import LogoLaravel from '../images/laravel.png'
+import LogoReact from '../images/tech/react.png'
+import LogoNode from '../images/tech/node.png'
+import LogoMongo from '../images/tech/mongo.png'
+import LogoPostgres from '../images/tech/postgres.png'
+import LogoTailwind from '../images/tech/tailwind.png'
+import LogoAws from '../images/tech/aws.png'
+import LogoDocker from '../images/tech/docker.png'
+import LogoGit from '../images/tech/git.png'
+import LogoExpress from '../images/tech/express.png'
 
 import Img1 from '../images/docs/1.jpg'
 import Img2 from '../images/docs/2.jpg'
@@ -65,13 +64,8 @@ const Service = () => {
       desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.'
     },
     {
-      logo: LogoSpring,
-      title: 'Spring Boot',
-      desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.'
-    },
-    {
-      logo: LogoLaravel,
-      title: 'Laravel',
+      logo: LogoExpress,
+      title: 'ExpressJS',
       desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.'
     }
   ])
