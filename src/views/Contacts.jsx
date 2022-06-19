@@ -15,7 +15,7 @@ const Contacts = () => {
               href="https://wa.me/+625736822725"
               rel="noreferrer"
               target="_blank"
-              className="text-3xl font-semibold underline py-2"
+              className="text-2xl font-semibold underline py-2"
             >
               +62 85736822725
             </a>
@@ -25,7 +25,7 @@ const Contacts = () => {
               href="mailto:graita.sukma@gmail.com"
               rel="noreferrer"
               target="_blank"
-              className="text-3xl font-semibold underline py-2"
+              className="text-2xl font-semibold underline py-2"
             >
               graita.sukma@gmail.com
             </a>

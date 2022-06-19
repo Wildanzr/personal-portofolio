@@ -22,7 +22,6 @@ const SwiperCard = ({ techs }) => {
     techs.forEach((tech, idx) => {
       if (theme) document.getElementById(`card-slide-${idx}`).style.background = tech.dark
       else document.getElementById(`card-slide-${idx}`).style.background = tech.bg
-      console.log('Hah')
     })
   }, [theme])
 

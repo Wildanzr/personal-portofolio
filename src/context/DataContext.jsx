@@ -26,63 +26,63 @@ export const DataProvider = props => {
       logo: LogoGit,
       title: 'Git',
       desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
-      bg: '#FEC5BB',
+      bg: '#eae4e9',
       dark: '#114477'
     },
     {
       logo: LogoNode,
       title: 'NodeJS',
       desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
-      bg: '#FCD5CE',
+      bg: '#fff1e6',
       dark: '#052f5f'
     },
     {
       logo: LogoMongo,
       title: 'Mongo',
       desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
-      bg: '#FAE1DD',
+      bg: '#fde2e4',
       dark: '#133f62'
     },
     {
       logo: LogoPostgres,
       title: 'Postgres',
       desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
-      bg: '#F8EDEB',
+      bg: '#fad2e1',
       dark: '#114477'
     },
     {
       logo: LogoAws,
       title: 'AWS',
       desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
-      bg: '#E8E8E4',
+      bg: '#e2ece9',
       dark: '#052f5f'
     },
     {
       logo: LogoReact,
       title: 'React',
       desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
-      bg: '#D8E2DC',
+      bg: '#bee1e6',
       dark: '#133f62'
     },
     {
       logo: LogoDocker,
       title: 'Docker',
       desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
-      bg: '#ECE4DB',
+      bg: '#f0efeb',
       dark: '#114477'
     },
     {
       logo: LogoTailwind,
       title: 'TailwindCSS',
       desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
-      bg: '#FFE5D9',
+      bg: '#dfe7fd',
       dark: '#052f5f'
     },
     {
       logo: LogoExpress,
       title: 'ExpressJS',
       desc: 'React Fundamentals, state, props, hooks, context api, routing, DevTools. Also using Framework such as Ant Design and Material UI.',
-      bg: '#FFD7BA',
+      bg: '#cddafd',
       dark: '#133f62'
     }
   ])
