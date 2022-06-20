@@ -11,7 +11,7 @@ const Service = () => {
   const { allState } = useContext(DataContext)
   const { techs, wheelTech, setWheelTech, projects1, projects2 } = allState
   return (
-    <div className="flex flex-col justify-between container px-20" id='service'>
+    <div className="flex flex-col justify-between container px-5 sm:px-20" id='service'>
       <div
         className="flex flex-col"
         data-aos="fade-up"
@@ -22,9 +22,9 @@ const Service = () => {
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
       >
-        <h2 className="text-5xl font-medium text-center pb-10">Service</h2>
+        <h2 className="text-5xl font-medium text-center pb-0 sm:pb-10">Service</h2>
 
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-col items-center sm:justify-between sm:flex-row">
           <WheelTech techs={wheelTech} />
           <SwiperTech techs={techs} wheelTech={wheelTech} setWheelTech={setWheelTech}/>
         </div>

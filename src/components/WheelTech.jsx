@@ -58,19 +58,19 @@ const WheelTech = ({ techs }) => {
     )
   }
   return (
-    <div className="flex mx-20">
-      <div className="flex relative w-[315px] h-[490px] items-center">
-        <div className="flex absolute bg-[#D8EAF3] w-[350px] h-[350px] rounded-full bottom-[25%] right-[-5%]"></div>
-        <div className="flex absolute bg-[#00B3A4] w-[350px] h-[350px] rounded-full left-[42%] bottom-[10%]"></div>
-        <div className="flex absolute bg-[#F1CB22] w-[350px] h-[350px] rounded-full top-[30%] right-[-15%]"></div>
+    <div className="flex items-center sm:mx-20">
+      <div className="flex relative w-[315px] h-[300px] items-center justify-center sm:justify-start sm:h-[490px]">
+        <div className="flex absolute bg-[#D8EAF3] w-32 h-32 rounded-full top-[20%] left-[17%] sm:bottom-[25%] sm:right-[-5%] sm:w-[350px] sm:h-[350px]"></div>
+        <div className="flex absolute bg-[#00B3A4] w-32 h-32 rounded-full bottom-[28%] right-[15%] sm:left-[42%] sm:bottom-[10%] sm:w-[350px] sm:h-[350px]"></div>
+        <div className="flex absolute bg-[#F1CB22] w-32 h-32 rounded-full bottom-[15%] left-[20%] sm:top-[30%] sm:right-[-15%] sm:w-[350px] sm:h-[350px]"></div>
         {theme
           ? (
-          <div className="flex absolute bg-[#464646] w-[450px] h-[450px] rounded-full">
+          <div className="flex absolute bg-[#464646] w-48 h-48 rounded-full sm:w-[450px] sm:h-[450px]">
           {mapWheel()}
         </div>
             )
           : (
-          <div className="flex absolute bg-[#FFF] w-[450px] h-[450px] rounded-full">
+          <div className="flex absolute bg-[#FFF] w-48 h-48 rounded-full sm:w-[450px] sm:h-[450px]">
           {mapWheel()}
         </div>
             )}
