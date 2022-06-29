@@ -58,7 +58,7 @@ const SwiperCard = ({ techs, wheelTech, setWheelTech }) => {
             prev()
           }
         }}
-        className="mySwiper w-[250px] h-[450px] sm:w-[315px] sm:h-[490px]"
+        className="mySwiper w-[250px] h-[400px] sm:w-[315px] sm:h-[490px]"
       >
         {techs.map((tech, idx) => {
           return (

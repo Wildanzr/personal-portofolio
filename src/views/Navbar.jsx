@@ -14,7 +14,7 @@ const Navbar = ({ theme, setTheme }) => {
       </div>
 
       <div className="flex flex-row-reverse items-center justify-between sm:hidden">
-        <div className="dropdown dropdown-end pl -2">
+        <div className="dropdown dropdown-end pl-2">
           <label tabIndex="0" className="btn btn-ghost btn-circle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ const Navbar = ({ theme, setTheme }) => {
           </label>
           <ul
             tabIndex="0"
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box text-[#D8EAF3]"
+            className="menu menu-compact dropdown-content mt-3 px-2 w-28 shadow bg-base-100 rounded-box text-[#D8EAF3]"
           >
             <li>
               <a
@@ -59,7 +59,7 @@ const Navbar = ({ theme, setTheme }) => {
                 href="#service"
                 className="text-sm font-normal tracking-wider px-5 hover:font-semibold duration-200"
               >
-                Service
+                Tech Stack
               </a>
             </li>
             <li>
@@ -97,7 +97,7 @@ const Navbar = ({ theme, setTheme }) => {
           href="#service"
           className="text-lg font-normal tracking-wider px-5 hover:font-semibold duration-200"
         >
-          Service
+          Tech Stack
         </a>
         <a
           data-easing="easeInOutQuad"

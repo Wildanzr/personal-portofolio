@@ -44,7 +44,7 @@ const Experience = () => {
       data-aos-once="true"
       data-aos-anchor-placement="top-center"
     >
-      <h2 className="text-center text-2xl font-medium sm:font-light sm:text-start">Experience</h2>
+      <h2 className="text-center text-3xl font-medium sm:font-light sm:text-start">Experience</h2>
 
       <div className="flex flex-col sm:flex-row justify-end py-2 sm:py-4">
         {experiences2.map((ex, index) => (
