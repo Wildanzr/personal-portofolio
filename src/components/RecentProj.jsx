@@ -22,7 +22,7 @@ const RecentProj = ({ projects, title }) => {
           }
         }}
         modules={[EffectCreative]}
-        className="mySwiper3 w-[500px] h-96"
+        className="mySwiper3 w-72 h-72 sm:w-[500px] sm:h-96"
       >
         {projects.map((project, idx) => {
           return (

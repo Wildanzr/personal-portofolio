@@ -10,7 +10,7 @@ const CardTech = ({ logo, title, desc, bg }) => {
       </div>
 
       <div className="flex flex-col">
-        <p className="text-xl font-light text-center px-5">{desc}</p>
+        <p className="text-sm sm:text-base font-light text-center px-5">{desc}</p>
       </div>
     </div>
   )
