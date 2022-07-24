@@ -183,7 +183,7 @@ export const DataProvider = props => {
     }
   ])
 
-  const [theme, setTheme] = useState(false)
+  const [theme, setTheme] = useState(true)
 
   const allState = {
     techs,

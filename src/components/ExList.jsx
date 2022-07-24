@@ -3,15 +3,15 @@ import React from 'react'
 
 const ExList = ({ year, title, company, desc }) => {
   return (
-    <div className="collapse collapse-arrow px-5">
+    <div className="collapse collapse-arrow px-0 sm:px-5">
       <input type="checkbox" />
       <div className="collapse-title text-xl font-medium">
         <div className="flex flex-row">
-          <p className="text-xl font-semibold text-[#B300A4] dark:text-[#4242BC] duration-300 pr-10">{year}</p>
+          <p className="tetx-lg font-semibold text-[#B300A4] dark:text-[#4242BC] duration-300 pr-10 sm:text-xl">{year}</p>
 
           <div className="flex flex-col">
-            <p className="text-2xl font-medium">{title}</p>
-            <p className="text-base font-light">
+            <p className="text-xl font-medium sm:text-2xl">{title}</p>
+            <p className="text-sm font-light sm:text-base">
               • {company}
             </p>
           </div>

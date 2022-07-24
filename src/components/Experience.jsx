@@ -35,7 +35,7 @@ const Experience = () => {
 
   return (
     <div
-      className="flex flex-col container px-20 py-10"
+      className="flex flex-col container px-0 py-10 sm:px-20"
       data-aos="fade-up"
       data-aos-delay="0"
       data-aos-duration="800"
@@ -44,9 +44,9 @@ const Experience = () => {
       data-aos-once="true"
       data-aos-anchor-placement="top-center"
     >
-      <h2 className="text-3xl font-light">Experience</h2>
+      <h2 className="text-center text-3xl font-medium sm:font-light sm:text-start">Experience</h2>
 
-      <div className="flex flex-row justify-end py-4">
+      <div className="flex flex-col sm:flex-row justify-end py-2 sm:py-4">
         {experiences2.map((ex, index) => (
           <ExList
             key={index}
@@ -58,7 +58,7 @@ const Experience = () => {
         ))}
       </div>
 
-      <div className="flex flex-row justify-end py-4">
+      <div className="flex flex-col sm:flex-row justify-end py-2 sm:py-4">
         {experiences1.map((ex, index) => (
           <ExList
             key={index}
